@@ -14,5 +14,11 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name Calculator madhavsood04/calculator
+      docker_container:
+        name: Calculator
+        image: madhavsood04/calculator:latest
+        state: started
+        restart_policy: always
+        detach: true
+
 
