@@ -17,7 +17,7 @@ public class Main {
             System.out.println("2: Factorial (x!)");
             System.out.println("3: Natural Logarithm (ln(x))");
             System.out.println("4: Power (x^b)");
-            System.out.println("0: Exit");
+            System.out.println("0: Quit");
 
             int choice = scanner.nextInt();
             try {
