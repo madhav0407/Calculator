@@ -17,3 +17,5 @@
 2024-09-23 16:37:33.896 [main] ERROR org.example.Main - Attempt to calculate natural logarithm of non-positive number: 0.0
 2024-09-23 16:37:35.749 [main] WARN  org.example.Main - Invalid option selected: 5
 2024-09-23 16:37:38.628 [main] INFO  org.example.Main - Exiting the calculator.
+2024-09-26 15:43:49.841 [main] INFO  org.example.Main - Calculating square root of: 9.0
+2024-09-26 15:43:51.500 [main] INFO  org.example.Main - Exiting the calculator.
