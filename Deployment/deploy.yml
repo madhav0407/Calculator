@@ -13,6 +13,8 @@
       service:
         name: docker
         state: started
+    - name: Delete container with same name
+      shell: docker rm Calculator
     - name: Running container
       shell: docker run -it -d --name Calculator madhavsood04/calculator
 
