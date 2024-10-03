@@ -10,7 +10,7 @@ public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) {
-        System.out.println("--------Welcome To Calculator-------");
+        System.out.println("----------Welcome To Calculator---------");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("Select operation:");
