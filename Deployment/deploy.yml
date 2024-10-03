@@ -13,6 +13,9 @@
       service:
         name: docker
         state: started
+    - name: Stop the container with same name if it already exists before deleting
+      shell: docker stop Calculator
+      ignore_errors: true
     - name: Delete container with same name if it already exists
       shell: docker rm Calculator
       ignore_errors: true
